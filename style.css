@@ -1,40 +1,38 @@
 @font-face {
-  font-family: 'Proxima Nova Th';
-  src: url('/fonts/ProximaNovaT-Thin.eot');
-  src: local('/fonts/Proxima Nova Thin'), local('/fonts/ProximaNovaT-Thin'),
-      url('/fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/ProximaNovaT-Thin.woff2') format('woff2'),
-      url('/fonts/ProximaNovaT-Thin.woff') format('woff'),
-      url('/fonts/ProximaNovaT-Thin.ttf') format('truetype');
+  font-family: "Proxima Nova Th";
+  src: url("/fonts/ProximaNovaT-Thin.eot");
+  src: local("/fonts/Proxima Nova Thin"), local("/fonts/ProximaNovaT-Thin"),
+    url("/fonts/ProximaNovaT-Thin.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/ProximaNovaT-Thin.woff2") format("woff2"),
+    url("/fonts/ProximaNovaT-Thin.woff") format("woff"),
+    url("/fonts/ProximaNovaT-Thin.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Proxima Nova Th';
-  src: url('/fonts/ProximaNova-Extrabld.eot');
-  src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
-      url('/fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/ProximaNova-Extrabld.woff2') format('woff2'),
-      url('/fonts/ProximaNova-Extrabld.woff') format('woff'),
-      url('/fonts/ProximaNova-Extrabld.ttf') format('truetype');
+  font-family: "Proxima Nova Th";
+  src: url("/fonts/ProximaNova-Extrabld.eot");
+  src: local("Proxima Nova Extrabold"), local("ProximaNova-Extrabld"),
+    url("/fonts/ProximaNova-Extrabld.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/ProximaNova-Extrabld.woff2") format("woff2"),
+    url("/fonts/ProximaNova-Extrabld.woff") format("woff"),
+    url("/fonts/ProximaNova-Extrabld.ttf") format("truetype");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Proxima Nova Rg';
-  src: url('/fonts/ProximaNova-Regular.eot');
-  src: local('/fonts/Proxima Nova Regular'), local('ProximaNova-Regular'),
-      url('/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/ProximaNova-Regular.woff2') format('woff2'),
-      url('/fonts/ProximaNova-Regular.woff') format('woff'),
-      url('/fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-family: "Proxima Nova Rg";
+  src: url("/fonts/ProximaNova-Regular.eot");
+  src: local("/fonts/Proxima Nova Regular"), local("ProximaNova-Regular"),
+    url("/fonts/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/ProximaNova-Regular.woff2") format("woff2"),
+    url("/fonts/ProximaNova-Regular.woff") format("woff"),
+    url("/fonts/ProximaNova-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
-
-
 
 body {
   margin: 0;
@@ -52,7 +50,7 @@ p {
   min-height: 100vh;
   background-image: url(./images/bg.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,16 +91,17 @@ p {
   font-style: normal;
 }
 
-a{
+a {
   text-decoration: none;
   color: #ffffff;
 }
 
-.form__button-register, .form__button-login{
+.form__button-register,
+.form__button-login {
   border-bottom: 3px solid #ffab1a;
 }
 
-.form__header p{
+.form__header p {
   margin: 0 50px 30px 0;
 }
 
@@ -119,7 +118,7 @@ a{
   color: #ffffff;
 }
 
-label{
+label {
   width: 100%;
   font-size: 15px;
   color: #ffffff;
@@ -128,7 +127,7 @@ label{
   font-style: normal;
 }
 
-input:focus{
+input:focus {
   outline: none;
 }
 
@@ -139,7 +138,6 @@ input::placeholder {
   font-weight: 800;
   font-style: normal;
 }
-
 
 button {
   width: 196px;
@@ -169,37 +167,34 @@ button {
   animation-fill-mode: both;
 }
 
-
 @keyframes fadeInLeft {
-	0% {
-		opacity: 0;
-		transform: translateX(-20px);
-	}
-	
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .fadeInLeft {
-	animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
 }
 
-
-
 @keyframes fadeOutLeft {
-	0% {
-		opacity: 1;
-		transform: translateX(0);
-	}
-	
-	100% {
-		opacity: 0;
-		transform: translateX(-20px);
-	}
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
 }
 
 .fadeOutLeft {
-	animation-name: fadeOutLeft;
+  animation-name: fadeOutLeft;
 }
