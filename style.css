@@ -1,35 +1,35 @@
 @font-face {
   font-family: 'Proxima Nova Th';
-  src: url('/fonts/ProximaNovaT-Thin.eot');
-  src: local('/fonts/Proxima Nova Thin'), local('/fonts/ProximaNovaT-Thin'),
-      url('/fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/ProximaNovaT-Thin.woff2') format('woff2'),
-      url('/fonts/ProximaNovaT-Thin.woff') format('woff'),
-      url('/fonts/ProximaNovaT-Thin.ttf') format('truetype');
+  src: url('fonts/ProximaNovaT-Thin.eot');
+  src: local('fonts/Proxima Nova Thin'), local('fonts/ProximaNovaT-Thin'),
+      url('fonts/ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
+      url('fonts/ProximaNovaT-Thin.woff2') format('woff2'),
+      url('fonts/ProximaNovaT-Thin.woff') format('woff'),
+      url('fonts/ProximaNovaT-Thin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Proxima Nova Th';
-  src: url('/fonts/ProximaNova-Extrabld.eot');
+  src: url('fonts/ProximaNova-Extrabld.eot');
   src: local('Proxima Nova Extrabold'), local('ProximaNova-Extrabld'),
-      url('/fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/ProximaNova-Extrabld.woff2') format('woff2'),
-      url('/fonts/ProximaNova-Extrabld.woff') format('woff'),
-      url('/fonts/ProximaNova-Extrabld.ttf') format('truetype');
+      url('fonts/ProximaNova-Extrabld.eot?#iefix') format('embedded-opentype'),
+      url('fonts/ProximaNova-Extrabld.woff2') format('woff2'),
+      url('fonts/ProximaNova-Extrabld.woff') format('woff'),
+      url('fonts/ProximaNova-Extrabld.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Proxima Nova Rg';
-  src: url('/fonts/ProximaNova-Regular.eot');
-  src: local('/fonts/Proxima Nova Regular'), local('ProximaNova-Regular'),
-      url('/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
-      url('/fonts/ProximaNova-Regular.woff2') format('woff2'),
-      url('/fonts/ProximaNova-Regular.woff') format('woff'),
-      url('/fonts/ProximaNova-Regular.ttf') format('truetype');
+  src: url('fonts/ProximaNova-Regular.eot');
+  src: local('fonts/Proxima Nova Regular'), local('ProximaNova-Regular'),
+      url('fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+      url('fonts/ProximaNova-Regular.woff2') format('woff2'),
+      url('fonts/ProximaNova-Regular.woff') format('woff'),
+      url('fonts/ProximaNova-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
