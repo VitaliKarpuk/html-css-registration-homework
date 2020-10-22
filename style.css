@@ -203,3 +203,45 @@ button {
 .fadeOutLeft {
 	animation-name: fadeOutLeft;
 }
+
+
+@media screen and (max-width: 1480px) {
+  .form {
+    width: 297px;
+    height: 354px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .form {
+    width: 200px;
+    height: 254px;
+  }
+
+  .form__header {
+    font-size: 12px;
+  }
+
+  #register,
+  #login {
+    padding: 20px;
+  }
+
+  .form > input {
+    font-size: 12px;
+  }
+
+  input::placeholder {
+    font-size: 12px;
+  }
+
+  label {
+    font-size: 11px;
+  }
+
+  button {
+    width: 150px;
+    height: 28px;
+    font-size: 14px;
+  }
+}
