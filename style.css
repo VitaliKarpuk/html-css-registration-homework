@@ -34,8 +34,6 @@
   font-style: normal;
 }
 
-
-
 body {
   margin: 0;
   padding: 0;
@@ -52,7 +50,7 @@ p {
   min-height: 100vh;
   background-image: url(./images/bg.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,6 +62,7 @@ p {
   filter: drop-shadow(-4.794px 54.791px 35.5px rgba(0, 0, 0, 0.58));
   background-color: #11171b9c;
   padding: 50px;
+  -webkit-filter: drop-shadow(-4.794px 54.791px 35.5px rgba(0, 0, 0, 0.58));
 }
 
 #register {
@@ -172,18 +171,27 @@ button {
 
 @keyframes fadeInLeft {
 	0% {
-		opacity: 0;
-		transform: translateX(-20px);
-	}
+    opacity: 0;
+    transform:translateX(-20px)	;
+    -webkit-transform:translateX(-20px)	;
+    -moz-transform:translateX(-20px)	;
+    -ms-transform:translateX(-20px)	;
+    -o-transform:translateX(-20px)	;
+}
 	
 	100% {
 		opacity: 1;
 		transform: translateX(0);
-	}
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+}
 }
 
 .fadeInLeft {
-	animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+  
 }
 
 
@@ -192,12 +200,20 @@ button {
 	0% {
 		opacity: 1;
 		transform: translateX(0);
-	}
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-o-transform: translateX(0);
+}
 	
 	100% {
 		opacity: 0;
 		transform: translateX(-20px);
-	}
+		-webkit-transform: translateX(-20px);
+		-moz-transform: translateX(-20px);
+		-ms-transform: translateX(-20px);
+		-o-transform: translateX(-20px);
+}
 }
 
 .fadeOutLeft {
